@@ -1,0 +1,29 @@
+# ---- 构建产物 ----
+*.exe
+*.obj
+*.map
+*.log
+cl_out.txt
+cl_err.txt
+
+# ---- 运行日志 ----
+sender.log
+crash_probe.log
+
+# ---- 过程排查记录 ----
+tools/_*.txt
+tools/test*.log
+tools/*_live*.log
+tools/*.log
+
+# ---- 鸿蒙工程 ----
+oh_modules/
+entry/build/
+.hvigor/
+.idea/
+hvigor/
+local.properties
+**/build/
+.cxx/
+*.pyc
+__pycache__/
